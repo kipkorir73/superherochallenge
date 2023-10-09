@@ -8,39 +8,18 @@ This project is a Flask-based API for tracking heroes and their superpowers. It 
 
 To set up the project, follow these steps:
 
-1. Clone the repository to your local machine:
 
-   ```bash
-   git clone git@github.com:VictorOroo/SuperHeroesNew.git
-Create a virtual environment (optional but recommended):
-
-bash
-Copy code
-pipenv install
 Install dependencies for the Flask backend:
 
-bash
-Copy code
+
 pipenv install flask
 pipenv install sqlalchemy
 pipenv install flask-sqlalchemy
 pipenv install flask-migrate
 Install dependencies for the React frontend:
 
-bash
-Copy code
-npm install --prefix client
-# Usage
-You can run the Flask API on localhost:5555 by running:
 
-bash
-Copy code
-python app.py
-You can run the React app on localhost:4000 by running:
 
-bash
-Copy code
-npm start --prefix client
 
 
 ## Database Setup
@@ -90,4 +69,5 @@ Email: kipkorirc583@gmail.com
 Copyright (c) 2023 Collins Kipkorir.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files , to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.# superherochallenge
+
 # superherochallenge
